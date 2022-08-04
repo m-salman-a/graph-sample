@@ -8,9 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack(alignment: .topLeading) {
+            Rectangle()
+                .fill(.white)
+            VertexView(
+                radius: 16,
+                color: .black,
+                coordinate: CGPoint(x: 50, y: 50))
+            EdgeShape(
+                start: CGPoint(x: 50, y: 50),
+                end: CGPoint(x: 320, y: 50))
+            .stroke()
+            VertexView(
+                radius: 16,
+                color: .red,
+                coordinate: CGPoint(x: 320, y: 50))
+        }
     }
 }
 

@@ -11,6 +11,8 @@
 		A17DEE8A289C1AB200E37D3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17DEE89289C1AB200E37D3A /* ContentView.swift */; };
 		A17DEE8C289C1AB300E37D3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A17DEE8B289C1AB300E37D3A /* Assets.xcassets */; };
 		A17DEE8F289C1AB300E37D3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A17DEE8E289C1AB300E37D3A /* Preview Assets.xcassets */; };
+		A17DEE96289C204000E37D3A /* EdgeShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17DEE95289C204000E37D3A /* EdgeShape.swift */; };
+		A17DEE98289C396F00E37D3A /* VertexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17DEE97289C396F00E37D3A /* VertexView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		A17DEE89289C1AB200E37D3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A17DEE8B289C1AB300E37D3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A17DEE8E289C1AB300E37D3A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A17DEE95289C204000E37D3A /* EdgeShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeShape.swift; sourceTree = "<group>"; };
+		A17DEE97289C396F00E37D3A /* VertexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VertexView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				A17DEE87289C1AB200E37D3A /* GraphSampleApp.swift */,
 				A17DEE89289C1AB200E37D3A /* ContentView.swift */,
+				A17DEE95289C204000E37D3A /* EdgeShape.swift */,
+				A17DEE97289C396F00E37D3A /* VertexView.swift */,
 				A17DEE8B289C1AB300E37D3A /* Assets.xcassets */,
 				A17DEE8D289C1AB300E37D3A /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A17DEE98289C396F00E37D3A /* VertexView.swift in Sources */,
+				A17DEE96289C204000E37D3A /* EdgeShape.swift in Sources */,
 				A17DEE8A289C1AB200E37D3A /* ContentView.swift in Sources */,
 				A17DEE88289C1AB200E37D3A /* GraphSampleApp.swift in Sources */,
 			);
